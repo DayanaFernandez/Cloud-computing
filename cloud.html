@@ -1,0 +1,44 @@
+<meta charset="UTF-8">
+<head>
+<title>Cloud Computing</title>
+ 
+<style type="text/css">
+body {background-color:gold;}
+* {color:black;}
+* {font-family:"Verdana";}
+#title {text-align:center;}
+#names {text-align:center;}
+img.helloworld {width: 500px; height: 500px;}
+img.align-center{display: block; margin:0px auto;
+</style>
+ 
+<script>
+var today = new Date ();
+var hourNow = today.getHours();
+var greeting;
+if (hourNow > 18) {
+greeting = 'Good evening, World!';
+} else if (hourNow > 12) {
+greeting = 'Good afternoon, World!';
+} else if (hourNow > 0) {
+greeting = 'Good morning, World!';
+} else {
+greeting = 'Welcome!';
+}
+document.write('<h3>' + greeting + '</h3>');
+</script>
+</head>
+ 
+<body>
+<h1 id="title">Welcome to Cloud Computing at Towson University!</h1>
+<img src="helloworld.jpg" alt="hello world" class="align-center helloworld"/>
+ 
+<h2 id="names">By: Mia Forbes, Manpreet Sandhu, Dayana Fernandez, Brady Gaynor, Michael James</h3>
+ 
+<br>
+ 
+<footer>&copy; Towson University 2018</footer>
+ 
+</body>
+</html>
+
